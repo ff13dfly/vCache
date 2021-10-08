@@ -6,10 +6,10 @@ exports.config = {
         'module': 'lib',
     },
     'chain': { //对应取值的键名
-        'name': '_key',
-        'raw': '_data',
-        'more': '_metadata',
-        'type': '_type',
+        'name': 'key',
+        'raw': 'raw',
+        'more': 'protocol',
+        'type': 'way',
     },
     'keys': {
         'cache_index': 'caceiii',
