@@ -1,5 +1,6 @@
 exports.config = {
     'callIndex': '0x1d00', //anchor对应extrinsics的ID号
+    'storageIndex': '0x1d01', //storage对应extrinsics的ID号
     'cacheStep': 300, //每次处理block的数量
     'path': {
         'controller': 'mod',
