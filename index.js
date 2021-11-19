@@ -6,6 +6,7 @@ const { app } = require(fa);
 
 //1.计算callback的部分，可以把验证信息放在这里处理，保障授权访问
 const getCallback = function(str) {
+    console.log(str)
     const tmp = str.split('callback=');
     if (tmp.length == 1) return false;
     const dd = tmp[1].split('&');

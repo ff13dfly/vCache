@@ -18,7 +18,8 @@ exports.config = {
         'suffix_stack': '_kkb',
     },
     'polkadot': {
-        'endpoint': 'ws://127.0.0.1:9944',
+        //'endpoint': 'ws://127.0.0.1:9944',
+        'endpoint': 'ws://sub.android.im',
         //'endpoint': 'ws://45.32.38.236:9944',
         'account': '5DAAnrj7VHTznn2AWBemMuyBwZWs6FNFjdyVXUeYum3PTXFy',
     },
