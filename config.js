@@ -1,7 +1,8 @@
 exports.config = {
     'callIndex': '0x1d00', //anchor对应extrinsics的ID号
     'storageIndex': '0x1d01', //storage对应extrinsics的ID号
-    'cacheStep': 100, //每次处理block的数量
+    'cacheStep': 300, //每次处理block的数量
+    //'lockTime': 300, //cache block locker time
     'path': {
         'controller': 'mod',
         'module': 'lib',
@@ -18,8 +19,8 @@ exports.config = {
         'suffix_stack': '_kkb',
     },
     'polkadot': {
-        //'endpoint': 'ws://127.0.0.1:9944',
-        'endpoint': 'ws://sub.android.im',
+        'endpoint': 'ws://127.0.0.1:9944',
+        //'endpoint': 'ws://sub.android.im',
         //'endpoint': 'ws://45.32.38.236:9944',
         'account': '5DAAnrj7VHTznn2AWBemMuyBwZWs6FNFjdyVXUeYum3PTXFy',
     },
